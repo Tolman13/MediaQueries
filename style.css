@@ -1,0 +1,61 @@
+.container
+{
+  display: flex;
+  
+  
+}
+
+.conteniendo
+{
+    background-color: #80566B;
+}
+ul
+{   
+    background-color: #EDEB9C;
+    
+    
+}
+nav
+{
+    margin-top: -10px;
+    
+}
+
+.contenido
+{
+    background-color: #E0ECB9;
+    
+    
+}
+aside
+{
+    background-color: #2A605A;
+    
+   
+}
+@media only screen and (max-width: 1000px) {
+    
+    .container {
+        flex-direction: column;
+        display: flex;
+    }
+    .conteniendo
+{
+    background-color: #52668D;
+}
+ul
+{   
+    background-color: #A2D6AF;
+    
+    
+}
+aside
+{
+    background-color: #FDD681;
+    
+   
+}
+  
+}
+
+
